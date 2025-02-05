@@ -20,12 +20,12 @@
       "ui": "@platforma-open/milabs.mnz-test.ui/dist"
     },
     "meta": {
-      "title": "Block Title",
+      "title": "MNZ Test",
       "logo": "file:../logos/block-logo.png",
-      "url": "https://github.com/milaboratory/platforma-mnz-test",
-      "docs": "https://github.com/milaboratory/platforma-mnz-test/docs",
+      "url": "https://github.com/platforma-open/mnz-test",
+      "docs": "https://github.com/platforma-open/mnz-test/docs",
       "support": "mailto:support@milaboratories.com",
-      "description": "Simple Hello World block that can be used as a boilerplate for newly created blocks.",
+      "description": "Test block for monetization",
       "longDescription": "file:../docs/description.md",
       "changelog": "file:../CHANGELOG.md",
       "tags": ["tutorial"],
