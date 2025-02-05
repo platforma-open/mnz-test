@@ -1,0 +1,38 @@
+{
+  "name": "@platforma-open/milabs.mnz-test",
+  "version": "1.0.0",
+  "scripts": {
+    "pretty": "prettier --write \"./**/*.{js,jsx,mjs,cjs,ts,tsx,json,vue}\"",
+    "build": "turbo run build",
+    "test": "turbo run test --concurrency 1",
+    "watch": "turbo watch build"
+  },
+  "files": [
+    "index.d.ts",
+    "index.js"
+  ],
+  "devDependencies": {
+    "turbo": "catalog:",
+    "@changesets/cli": "catalog:"
+  },
+  "packageManager": "pnpm@9.12.0",
+
+  "block": {
+    "meta": {
+      "title": "MNZ Test",
+      "logo": "file:logos/block-logo.png",
+      "url": "https://github.com/platforma-open/mnz-test",
+      "docs": "https://github.com/platforma-open/mnz-test/docs",
+      "support": "mailto:support@milaboratories.com",
+      "description": "Test block for monetization",
+      "longDescription": "file:./docs/description.md",
+      "changelog": "file:CHANGELOG.md",
+      "tags": ["tutorial"],
+      "organization": {
+        "name": "MiLaboratories Inc",
+        "url": "https://milaboratories.com",
+        "logo": "file:logos/milaboratories.png"
+      }
+    }
+  }
+}
